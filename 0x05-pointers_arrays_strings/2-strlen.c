@@ -1,145 +1,16 @@
+#include "main.h"
+
 /**
- * _strlen - returns the length of a string
- *
- * @s: string parameter input
- *
- * Return: length of string
-*/
-
+ * _strlen - a function that returns the length of a string
+ * @s: char input
+ * Return: length of the input string
+ */
 int _strlen(char *s)
 {
-	int counter;
+int count, inc;
+inc = 0;
+for (count = 0; s[count] != '\0'; count++)
+inc++;
 
-	for (counter = 0; *s != '\0'; ++s)
-		++counter;
-
-	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
-}/**
-    * _strlen - returns the length of a string
-    *  *
-    *   * @s: string parameter input
-    *    *
-    *     * Return: length of string
-    *     */
-
-int _strlen(char *s)
-{
-  	int counter;
-
-    	for (counter = 0; *s != '\0'; ++s)
-          		++counter;
-
-        	return (counter);
+return (inc);
 }
